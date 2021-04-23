@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <style>
+        .foto-perfil {
+            height: 10%;
+            width: 15%;
+            max-width: 15%;
+            border-radius: 50%;
+        }
+        
+        .corPrimaria {
+            background-color: rgba(5, 45, 97, 0.589);
+        }
+        
+        .corSecundaria {
+            background-color: rgba(42, 100, 158, 0.603);
+        }
+        
+        p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: black !important;
+        }
+        
+        .icones {
+            padding-left: 5px;
+        }
+        
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #413b61;
+        }
+        
+        .textoBranco {
+            color: white !important;
+        }
+        
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+        
+        .textoFooter {
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textoBranco" href="#">Diego Matos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item tex">
+                    <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#">Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#">Expêriencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img class="foto-perfil" src="/Imagens/imgPerfil.jpg" alt="Foto diego">
+            <h1 class="jumbotron-heading textoBranco">Diego Matos</h1>
+            <p class="lead textoBranco ">Estudante de Análise e desenvolvimento de Sistemas</p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2">Contato</a>
+
+            </p>
+            <a href="https://www.linkedin.com/in/diego-de-matos-ab152518a/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"></a><i class="icones fab fa-github"></i>
+            <a href="#"></a><i class="icones fab fa-whatsapp"></i>
+        </div>
+    </section>
+    <div id="projetos" class="album py-5 bg-light">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="Imagens/printpng.png" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Este projeto foi feito durante meus estudos, obtive muito aprendizado e experiencia!</p>
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>SQL</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="####"><button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="#####"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" src="/Imagens/printpng.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text"></p>
+                            <p class="card-text">Analise de dados em Power BI</p>
+                            <ul>
+                                <li>Power BI</li>
+                                <li>Python</li>
+                                <li>SQL</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="####"><button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="#####"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Sobre mim -->
+    <section id="sobre-mim" class=" jumbotron text-center corPrimaria">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="textoBranco lead">
+                Estou determinado a mudança de carreira, sempre tive interesse pela área da tecnologia, mas nunca tive a oportunidade de segui-la, então em 2018 tomei coragem e ingressei no Curso Superior em ADS, foi amor à segunda vista, a cada nova disciplina tive
+                a certeza de que sim, é essa área que quero para minha vida profissional. Desde então mesmo com o tempo corrido venho buscando me aperfeiçoar através de cursos online, palestras e workshops, pois quero estar o mais preparado o possível
+                para quando a oportunidade chegar. Áreas que conheço ou em que venho me especializando: SQL- Basico Linguagem Python - Básico Linguagem R - Básico HTML- Básico CSS - Básico .NET C# - Básico Análise de Dados Linguagem Java – Básico Power
+                BI
+            </p>
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section id="contato">
+        <div>
+            <div class="container-fluid">
+                <h3 style="padding-top: 60px;" class="text-center titulosVerdes">Disponivel para oportunidades</h3>
+                <a href="mailto:dpadias24@gmail.com">
+                    <h4 style="padding-bottom:60px" class="text-center">dpadias24@gmail.com</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="textoFooter textoBranco text-center corSecundaria">Copyright 2021 Dev Diego Matos</footer>
+
+
+</body>
+
+</html>
