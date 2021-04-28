@@ -1,59 +1,72 @@
-.foto-perfil {
-    height: 10%;
-    width: 15%;
-    max-width: 15%;
-    border-radius: 50%;
-}
-
-.corPrimaria {
-    background-color: rgba(5, 45, 97, 0.589);
-}
-
-.corSecundaria {
-    background-color: rgba(54, 125, 196, 0.603);
-}
-
-p {
-    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: black !important;
-}
-
-.icones {
-    padding-left: 5px;
-}
-
-.titulosBrancos {
-    text-decoration: underline;
-    text-underline-position: below;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: white;
-}
-
-.titulosVerdes {
-    text-decoration: underline;
-    text-underline-position: below;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #413b61;
-}
-
-.textoBranco {
-    color: white !important;
-}
-
-.jumbotron {
-    margin-bottom: 0px;
-}
-
-.textoFooter {
-    margin: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px
-}
-
-html {
-    scroll-behavior: smooth;
-}
+    .foto-perfil {
+        height: 10%;
+        width: 15%;
+        max-width: 15%;
+        border-radius: 50%;
+    }
+    
+    .myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        background: url(images/torre.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    .corPrimaria {
+        background-color: rgba(1, 15, 34, 0.952);
+    }
+    
+    .corSecundaria {
+        background-color: rgb(1, 15, 34);
+    }
+    
+    p {
+        font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: black !important;
+    }
+    
+    .icones {
+        padding-left: 5px;
+    }
+    
+    .titulosBrancos {
+        text-decoration: underline;
+        text-underline-position: below;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+    }
+    
+    .titulosVerdes {
+        text-decoration: underline;
+        text-underline-position: below;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: rgba(1, 15, 34, 0.952);
+    }
+    
+    .textoBranco {
+        color: white !important;
+    }
+    
+    .jumbotron {
+        margin-bottom: 0px;
+    }
+    
+    .textoFooter {
+        margin: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
