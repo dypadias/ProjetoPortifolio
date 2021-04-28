@@ -19,7 +19,7 @@
     }
     
     .corPrimaria {
-        background-color: rgba(1, 15, 34, 0.952);
+        background-color: rgb(1, 15, 34);
     }
     
     .corSecundaria {
@@ -32,7 +32,8 @@
     }
     
     .icones {
-        padding-left: 5px;
+        padding-left: 30px;
+        color: rgba(227, 230, 233, 0.952)
     }
     
     .titulosBrancos {
