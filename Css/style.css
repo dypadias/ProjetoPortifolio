@@ -33,7 +33,12 @@
     
     .icones {
         padding-left: 30px;
-        color: rgba(227, 230, 233, 0.952)
+        color: rgba(227, 230, 233, 0.952);
+    }
+    
+    .iconWhat {
+        padding-left: 30px;
+        color: green;
     }
     
     .titulosBrancos {
